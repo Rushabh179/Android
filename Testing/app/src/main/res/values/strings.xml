@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Testing</string>
+    <string name="message">Status</string>
+    <string name="buttontext">Click Me!!</string>
+    <string name="simpleclick">Simple Click</string>
+    <string name="longclick">Long Click</string>
+    <string name="fling">Fling</string>
+    <string name="longpress">Long Press</string>
+    <string name="scroll">Scroll</string>
+    <string name="singletapup">Single Tap Up</string>
+    <string name="showpress">Show Press</string>
+    <string name="down">Down</string>
+    <string name="doubletap">Double Tap</string>
+    <string name="doubletapevent">Double Tap Event</string>
+    <string name="singletapconfirmed">Single Tap Confirmed</string>
+    <string name="memebuttontext">Create</string>
+    <string name="bottom_text">Bottom Text</string>
+    <string name="top_text">Top Text</string>
+</resources>

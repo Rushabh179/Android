@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">IntentEx</string>
+    <string name="first">First</string>
+    <string name="second">Second</string>
+    <string name="textview">TextView</string>
+    <string name="button">Button</string>
+</resources>

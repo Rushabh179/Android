@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ListEx</string>
+    <string name="textview">Name</string>
+</resources>

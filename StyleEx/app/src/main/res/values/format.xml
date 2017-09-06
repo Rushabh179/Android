@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bgcolor">#efe59a</color>
+    
+    <style name="MyTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:windowBackground">@color/bgcolor</item>
+    </style>
+
+    <style name="TextFormat">
+        <item name="android:textColor">#47471a</item>
+        <item name="android:background">#7994e2</item>
+        <item name="android:textSize">50sp</item>
+    </style>
+
+    <style name="TextFormat.textstyle">
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+</resources>
