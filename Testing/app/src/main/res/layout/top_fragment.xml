@@ -33,5 +33,5 @@
         android:width="150dp"
         android:background="@color/backColor"
         android:text="@string/memebuttontext"
-        android:textSize="17sp" />
+        android:textSize="17sp"/>
 </RelativeLayout>
