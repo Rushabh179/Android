@@ -2,8 +2,6 @@ package com.example.rushabh.listex;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
-import android.media.Image;
-import android.support.annotation.LayoutRes;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -11,7 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
-import android.widget.Switch;
 import android.widget.TextView;
 
 class CustomAdapter extends ArrayAdapter<String> {
@@ -25,7 +22,8 @@ class CustomAdapter extends ArrayAdapter<String> {
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         LayoutInflater inflater=LayoutInflater.from(getContext());
-        @SuppressLint("ViewHolder") View customView=inflater.inflate(R.layout.custom_row,parent,false);///////
+        @SuppressLint("ViewHolder")
+        View customView=inflater.inflate(R.layout.custom_row,parent,false);///////
         String getSingleItem=getItem(position);
         TextView textView=(TextView) customView.findViewById(R.id.textView);
         ImageView imageView=(ImageView) customView.findViewById(R.id.imageView);
