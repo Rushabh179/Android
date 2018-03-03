@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void launchCamera(View view){
+        Toast.makeText(this, "aasa", Toast.LENGTH_SHORT).show();
         startActivityForResult(new Intent(MediaStore.ACTION_IMAGE_CAPTURE),REQUEST_IMAGE_CAPTURE);
     }
 
@@ -46,5 +48,9 @@ public class MainActivity extends AppCompatActivity {
             Bitmap photo= (Bitmap) extras.get("data");
             imageView.setImageBitmap(photo);
         }
+    }
+
+    public void shootVideo(View view) {
+        startActivity(new Intent(this, VideoActivity.class));
     }
 }
